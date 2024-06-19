@@ -1,0 +1,82 @@
+/* Font Baloo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+* {
+    margin: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/Foto\ desfoque\ colorido\ gradiente\ de\ fundo\ desfoque.jpg");
+/*     background-position: center; */
+    background-size: cover;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    padding: 20px 20px;
+}
+.logo{
+    
+    margin-left: 60px;
+}
+.CidadeCarinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+}
+#cidade{
+    padding: 15px 50px;
+    margin-right: 20px;
+    background-color: #EBE5F9;
+    border-radius: 5px;
+    color: #4B2995;
+}
+#cidade > img{
+    padding: 0%;
+    margin-right: 5px;
+    height: 15px;
+}
+#cidade > p{
+    display: inline;
+}
+#carinho{
+    background-color: #F1E9C9;
+    border-radius: 5px;
+}
+#carinho > img{
+    height: 45px;
+    width: 45px;
+}
+
+/* Section */
+.intro {
+    margin: 120px 60px 50px 60px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#text{
+    max-width: 650px;
+}
+#text > h1{
+    font-family: "Baloo 2";
+    font-size: 32px;
+}
+
+/* Itens da Section */
+
+#itens1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#itens2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
