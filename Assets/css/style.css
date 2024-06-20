@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../img/Foto\ desfoque\ colorido\ gradiente\ de\ fundo\ desfoque.jpg");
+    background-image:none;
 /*     background-position: center; */
     background-size: cover;
 }
@@ -19,14 +19,13 @@ header{
     padding: 20px 20px;
 }
 .logo{
-    
     margin-left: 60px;
 }
 .CidadeCarinho{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 60px;
+    /* margin-right: 60px; */
 }
 #cidade{
     padding: 15px 50px;
@@ -54,8 +53,7 @@ header{
 
 /* Section */
 .intro {
-    margin: 120px 60px 50px 60px;
-    
+    margin: 146px 60px 50px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -79,4 +77,52 @@ header{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (min-width: 500px){
+    #itens1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 550px;
+    }
+
+}
+
+@media (max-width: 1055px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-image: none;   
+    }
+    .intro{ 
+        display: block;
+    }
+    #text > h1{
+        width: 100%;
+    }
+    #img{
+        margin-top: 50px;
+        display: block;
+        /* border: 5px solid orange; */
+    }
+}
+
+@media (max-width: 660px){
+    #img > img{
+        width: 500px;
+    }
+    .intro{
+        display: block;
+    }
+    #itens1{
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    #img > img {
+        width: 350px;
+    }
 }
