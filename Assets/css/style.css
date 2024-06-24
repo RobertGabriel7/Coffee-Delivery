@@ -73,15 +73,12 @@ header{
 #itens1{
     margin-top: 40px;
     display: flex;
-    border: 3px solid blue;
+    
 }
 #itens2{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-}
-#text{
-    border: 5px solid orange;
 }
 #item1, #item2, #item3, #item4{
     width: 260px;
@@ -89,11 +86,15 @@ header{
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    border: 1px solid aqua;
+
 }
-#item1, #item2, #item3, #item4 > p{
-    margin-left: 0px;
+#item3, #item4 {
+    margin-top: 25px;
 }
+.pItens{
+    margin-left: 5px;
+}
+
 
 @media (min-width: 500px){
     #itens1{
@@ -121,7 +122,7 @@ header{
     #img{
         margin-top: 50px;
         display: block;
-        /* border: 5px solid orange; */
+    
     }
 }
 
@@ -135,9 +136,7 @@ header{
     #itens1{
         display: block;
     }
-    #text{
-        border: 2px solid orange;
-    }
+    
 }
 
 @media (max-width: 500px) {
@@ -173,13 +172,7 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        border: 1px solid aqua;
+
     }
-    #item2 > p {
-        font-size: 15px;
-        margin: 15px;
-    }
-    #text{
-        border: 2px solid #4B2995;
-    }
+    
 }
