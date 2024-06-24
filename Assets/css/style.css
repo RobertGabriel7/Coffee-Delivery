@@ -71,9 +71,9 @@ header{
 /* Itens da Section */
 
 #itens1{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    border: 3px solid blue;
 }
 #itens2{
     margin-top: 20px;
@@ -83,14 +83,16 @@ header{
 #text{
     border: 5px solid orange;
 }
-#item2{
+#item1, #item2, #item3, #item4{
+    width: 260px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap;
     border: 1px solid aqua;
 }
-#item2 > p{
-    margin-left: 5px;
+#item1, #item2, #item3, #item4 > p{
+    margin-left: 0px;
 }
 
 @media (min-width: 500px){
