@@ -59,20 +59,27 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 #text{
     max-width: 650px;
 }
 #text > h1{
     font-family: "Baloo 2";
-    font-size: 35px;
+    font-size: 48px;
+    font-weight: 800;
 }
-
+#text > h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
 /* Itens da Section */
 
 #itens1{
     margin-top: 40px;
     display: flex;
+    font-size: 16px;
+    font-weight: 400;
     
 }
 #itens2{
@@ -92,6 +99,176 @@ header{
     margin-top: 10px;
 }
 .pItens{
+    margin-left: 5px;
+}
+
+/* Coffee List */
+
+#coffeeList{
+    margin: 10px 60px 50px 60px;
+
+}
+#coffeeList > p{
+    font-size: 32px;
+    font-weight: 800;
+}
+#listaDeCafes{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/* Café tradicional */
+#expressTradicional{
+    background: #F3F2F2;
+    border-radius: 6px 32px 6px 32px;
+    width: 256px;
+    height: 310px;
+    border: 2px solid orange;
+}
+#expressTradicional > div{
+    display: flex;
+    justify-content: center;
+}
+#expressTradicional > div > #p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    height: 21px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: #F1E9C9;
+    color: #C47F17;
+    margin: 10px 0px 10px 0px;
+}
+#expressTradicional  #p2 {
+    margin: 10px 36px 10px 36px;
+    color: #8D8686;
+    font-size: 14px;
+    font-weight: 400;
+}
+#expressTradicional #valor #p2 {
+    margin: 0px;
+    color: #574F4D;
+}
+#expressTradicional #valor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+#expressTradicional #qtda{
+    background-color: #E6E5E5;
+    padding: 8px;
+    border-radius: 6px;
+}
+#expressTradicional #carinho {
+    background: #4B2995;
+    padding: 8px;
+    border-radius: 6px;
+}
+#expressTradicional  span{
+    font-family: "Baloo 2";
+    font-size: 24px;
+    font-weight: 800;
+}
+#valor > #qtda > img {
+    width: 14px;
+    height: 14px;
+}
+/* -------------------------------------------- */
+/* Café americano */
+#expressAmericano{
+    background: #F3F2F2;
+    border-radius: 6px 32px 6px 32px;
+    width: 256px;
+    height: 310px;
+    border: 2px solid orange;
+}
+
+#expressAmericano > div{
+    display: flex;
+    justify-content: center;
+}
+#expressAmericano > div > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    height: 21px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: #F1E9C9;
+    color: #C47F17;
+    
+}
+#expressAmericano > #p2 {
+    margin: 0px 36px 0px 36px;
+    color: #8D8686;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* -------------------------------------------- */
+/* Cafe Cremoso */
+#expressCremoso{
+    background: #F3F2F2;
+    border-radius: 6px 32px 6px 32px;
+    width: 256px;
+    height: 310px;
+    border: 2px solid orange;
+}
+
+#expressCremoso > div{
+    display: flex;
+    justify-content: center;
+}
+#expressCremoso > div > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    height: 21px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: #F1E9C9;
+    color: #C47F17;
+    
+}
+
+/* Cafe Gelado */
+#expressGelado{
+    background: #F3F2F2;
+    border-radius: 6px 32px 6px 32px;
+    width: 256px;
+    height: 310px;
+    border: 2px solid orange;
+}
+
+#expressGelado > div{
+    display: flex;
+    justify-content: center;
+}
+#expressGelado > div > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    height: 21px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: #F1E9C9;
+    color: #C47F17;
+}
+#pGelado{
     margin-left: 5px;
 }
 
