@@ -61,9 +61,7 @@ header{
     justify-content: space-between;
 
 }
-#text{
-    max-width: 650px;
-}
+
 #text > h1{
     font-family: "Baloo 2";
     font-size: 48px;
@@ -88,12 +86,16 @@ header{
     justify-content: space-between;
 }
 #item1, #item2, #item3, #item4{
-    width: 260px;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-
+}
+#item2{
+    margin-left: 40px;
+}
+#item4{
+    margin-left: 31px;
 }
 #item3, #item4 {
     margin-top: 10px;
@@ -1045,16 +1047,21 @@ footer{
 
 @media (max-width: 660px){
     #img > img{
-        width: 500px;
+        width: 450px;
     }
     .intro{
         display: block;
     }
     #itens1{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     #item2{
-        margin-top: 10px;
+        width: 450px;
+        margin: 10px 0px 0px 0px;
+    }
+    #item4{
+        margin-left: 0px;
     }
     #text > h1 {
         font-size: 25px;
